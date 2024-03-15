@@ -1,0 +1,76 @@
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0d3ce;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container, .container_list, .container_card {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50vw;
+}
+
+.list-group-item {
+  padding: 10px 70px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.item_selected {
+  background-color: #5b3682;
+  border: 1px solid #5b3682;
+  color:#ffffff;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0px;
+}
+
+.card {
+  padding: 25px 15px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.card_name {
+  margin: 5px 0 10px 0;
+}
+
+.card_city, .card_position, .card_company {
+  align-self: flex-start;
+  margin: 5px 0;
+}
+
+img {
+  height: 275px;
+}
